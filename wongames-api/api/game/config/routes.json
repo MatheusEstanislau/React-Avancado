@@ -9,6 +9,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/games/populate",
+      "handler": "game.populate",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "GET",
       "path": "/games/count",
       "handler": "game.count",
